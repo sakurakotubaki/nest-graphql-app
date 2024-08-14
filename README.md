@@ -11,3 +11,16 @@ npm run start
 ```
 
 http://localhost:3000/graphql
+
+
+クエリを実行してデータを取得
+```
+# Write your query or mutation here
+{
+  users {
+    id
+    name
+    email
+  }
+}
+```
